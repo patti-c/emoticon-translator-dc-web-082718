@@ -8,8 +8,8 @@ def load_library(file)
     "get_meaning" => {}
   }
   
-  emoticons.each do |key, array|
-    return_hash["get_meaning"][array[1]] = key
+  emoticons.each do |meaning, array|
+    return_hash["get_meaning"][array[1]] = meaning
   
 end
 
