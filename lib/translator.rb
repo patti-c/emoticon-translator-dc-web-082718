@@ -10,6 +10,7 @@ def load_library(file)
   
   emoticons.each do |meaning, array|
     return_hash["get_meaning"][array[1]] = meaning
+    return_hash["get_emoticon"][array[0]] = array[1]
   end
   
   return_hash
