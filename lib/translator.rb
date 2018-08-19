@@ -11,6 +11,8 @@ def load_library(file)
   emoticons.each do |meaning, array|
     return_hash["get_meaning"][array[1]] = meaning
   end
+  
+  return_hash
 end
 
 def get_japanese_emoticon
